@@ -8,7 +8,7 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8253974355:AAGer3TJhxog8r7Mt7ryI3TOIl9VtvsSi7M")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("မင်္ဂလာပါ 😊 Bot အလုပ်လုပ်နေပါတယ်")
